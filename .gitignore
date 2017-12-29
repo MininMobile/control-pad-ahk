@@ -1,2 +1,5 @@
 # Ignore my other scripts
 /Misc/
+
+# Ignore Examples/Test Scripts
+*.e.ahk

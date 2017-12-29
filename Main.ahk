@@ -1,3 +1,11 @@
+; Init
+#NoEnv
+SendMode, Input
+SetWorkingDir, %A_ScriptDir%
+
+; Include AHKHID
+#Include AHKHID.ahk
+
 ; Check for Buttons
 NumpadAdd::Send, Add
 NumpadSub::Send, Subtract
